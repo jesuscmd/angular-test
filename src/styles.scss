@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+// Customize our bootstrap distribution
+@import "app/scss/vars";
+
+// Import global bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme";
+
+// General styles
+@import "app/scss/buttons";
+@import "app/scss/fonts";
+@import "app/scss/events";
+@import "app/scss/slider";
+@import "app/scss/footer";

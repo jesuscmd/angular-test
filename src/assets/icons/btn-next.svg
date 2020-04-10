@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-1098 -1412)">
+    <g id="Button_Backrround" data-name="Button Backrround" transform="translate(1098 1412)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="1" y="1" width="48" height="48" fill="none"/>
+    </g>
+    <path id="Arrow" d="M1122.589,1441.242l3.242-3.242H1116v-2h9.832l-3.243-3.243,1.415-1.415,5.656,5.656-5.656,5.657Z" fill="#0d0d0d"/>
+  </g>
+</svg>

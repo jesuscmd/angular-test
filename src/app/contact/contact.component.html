@@ -1,0 +1,62 @@
+<section class="contact-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>
+          Contact us
+        </h1>
+        <p>We are here to listen to you!</p>
+      </div>
+      <div class="col-md-8">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Name"
+                  formControlName="name"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Age"
+                  formControlName="age"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  id="comments"
+                  rows="3"
+                  placeholder="Comments"
+                  formControlName="comments"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button
+                type="submit"
+                class="btn btn-outline-dark home-btn"
+                [disabled]="!contactForm.valid"
+              >
+                Send message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

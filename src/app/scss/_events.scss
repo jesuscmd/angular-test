@@ -1,0 +1,64 @@
+// EVENTS SECTION
+#events {
+  padding: 100px 0;
+}
+.event {
+  min-height: 255px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  .bg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(assets/imgs/event-bg.png);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-position: center;
+    background-size: cover;
+  }
+  &:hover {
+    .event-content {
+      border: 4px solid #707070;
+      padding: 25px 28px;
+    }
+    .event-title {
+      color: white;
+    }
+    .event-date {
+      color: #dcdee6;
+    }
+    .bg {
+      opacity: 1;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .event-row {
+    margin-bottom: 30px;
+  }
+}
+.event-content {
+  border: 2px solid #e1e2e6;
+  padding: 27px 30px;
+  z-index: 1;
+  position: relative;
+  height: 100%;
+}
+//RETINA DISPLAY
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .event .bg {
+    background: url(assets/imgs/event-bg@2x.png);
+  }
+}
+.event-title {
+  color: #131317;
+}
+.event-date {
+  color: #7f818a;
+  font-size: 12px;
+}

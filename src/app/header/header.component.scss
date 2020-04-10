@@ -1,0 +1,12 @@
+//NAVBAR
+.navbar-brand {
+  width: 200px;
+  font-size: 27px;
+}
+header {
+  transition: background-color 0.3s;
+  &.active {
+    background-color: #fff;
+    box-shadow: -2px 5px 36px -21px rgba(0, 0, 0, 0.75);
+  }
+}
