@@ -8,7 +8,9 @@ Clone repository and `npm install`
 
 ## Run locally
 
-Run `ng serve` 
+Run `ng serve`
+
+Be cafefull, since I used Google Fonts you will be asked to give confidential data, just say NO
 
 ## Running unit tests
 
