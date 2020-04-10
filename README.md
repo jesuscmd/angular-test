@@ -14,6 +14,10 @@ Run `ng serve`
 
 Run `ng test`
 
+## See contact form 
+
+Just click in any option in `main menu` or `Read more` buttons
+
 ## Wish me look
 
 Just give more time to expose more features!!!!!
